@@ -1,53 +1,64 @@
 package exo1;
 
 public class Pays {
-	
+
+	private int num;
 	private String nomPays;
 	private int nombreVille;
 	private int nombreHabitant;
-	
-	
-	public Pays(String nomPays, int nombreVille, int nombreHabitant) {
+
+	public Pays() {
+		super();
+	}
+
+	public Pays(int num, String nomPays, int nombreHabitant) {
+		super();
+		this.num = num;
 		this.nomPays = nomPays;
-		this.nombreVille = nombreVille;
 		this.nombreHabitant = nombreHabitant;
 	}
 
+	public Pays(String nomPays, int nombreHabitant) {
+		super();
+		this.nomPays = nomPays;
+		this.nombreHabitant = nombreHabitant;
+	}
 
 	public String getNomPays() {
 		return nomPays;
 	}
 
-
 	public void setNomPays(String nomPays) {
 		this.nomPays = nomPays;
 	}
-
 
 	public int getNombreVille() {
 		return nombreVille;
 	}
 
-
 	public void setNombreVille(int nombreVille) {
 		this.nombreVille = nombreVille;
 	}
-
 
 	public int getNombreHabitant() {
 		return nombreHabitant;
 	}
 
-
 	public void setNombreHabitant(int nombreHabitant) {
 		this.nombreHabitant = nombreHabitant;
 	}
+
+	public int getNum() {
+		return num;
+	}
+
+	@Override
+	public String toString() {
+		return "Pays [num=" + num + ", nomPays=" + nomPays + ", nombreHabitant="
+				+ nombreHabitant + ", nombreVille=" + nombreVille +"]";
+	}
+
 }
-	
-	
-	
-	
-	
 
 //private static String request;
 //private static PreparedStatement ps;
@@ -109,5 +120,3 @@ public class Pays {
 //	
 //
 //}
-
-

@@ -1,0 +1,10 @@
+14:34:46.630 [main] ERROR exo1.Menu -erreur de driver
+14:44:53.583 [main] INFO  exo1.PaysDAOImp -connection success
+14:49:42.687 [main] ERROR exo1.PaysDAOImp -test error
++++++++++++++++++++++++++++++++++++++++++++++++++
+
+14:50:33.534 [main] ERROR exo1.PaysDAOImp -test error
+=======================================================
+
+
+14:53:47.365 [main] ERROR exo1.PaysDAOImp -test error

@@ -1,16 +1,13 @@
 package exo1;
 
-
+import java.util.List;
 
 public interface VilleDAO {
 	
+	Ville creationVille(Ville ville);
 	
-
-
-	public void creationPays();
+	boolean suppressionVille(String nom);
 	
-	public void suppressionPays();
-	
-	public void listerPays();
+	List<Ville> listeVille();
 
 }
